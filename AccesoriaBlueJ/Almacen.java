@@ -7,6 +7,7 @@ public class Almacen {
     /* TODO ++++++++++++++++++++++++++
     DESARROLLE LOS CONSTRUCTORES QUE SE PIDEN
      */
+    public Almacen(
 
 
     // ++++++++++++++++++++++++++++++++
