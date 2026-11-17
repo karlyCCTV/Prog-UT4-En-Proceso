@@ -1,0 +1,23 @@
+#BlueJ class context
+#Tue Nov 17 16:44:50 CET 2026
+comment0.target=Poder
+comment0.text=\r\n Clase Poder\: un ataque que puede usar un pokemon. Usarlo cuesta energ\u00EDa.\r\n\r\n @author (your name)\r\n @version (a version number or a date)\r\n
+comment1.params=nombre tipo potencia energiaConsumida
+comment1.target=Poder(java.lang.String, java.lang.String, int, int)
+comment1.text=\r\n Constructor con los cuatro datos del poder.\r\n
+comment10.target=java.lang.String toString()
+comment2.params=nombre tipo potencia
+comment2.target=Poder(java.lang.String, java.lang.String, int)
+comment2.text=\r\n Constructor sin energ\u00EDa consumida.\r\n
+comment3.params=nombre tipo
+comment3.target=Poder(java.lang.String, java.lang.String)
+comment3.text=\r\n Constructor solo con nombre y tipo.\r\n
+comment4.target=java.lang.String getNombre()
+comment5.target=java.lang.String getTipo()
+comment6.target=int getPotencia()
+comment7.target=int getEnergiaConsumida()
+comment8.params=nuevaPotencia
+comment8.target=void setPotencia(int)
+comment9.params=nuevaEnergia
+comment9.target=void setEnergiaConsumida(int)
+numComments=11

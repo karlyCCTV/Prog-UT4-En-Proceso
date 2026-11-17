@@ -1,0 +1,23 @@
+#BlueJ class context
+#Mon Nov 16 20:19:03 CET 2026
+comment0.target=Libro
+comment0.text=\r\n Modela un libro que hay en una biblioteca\r\n Todo libro tiene un t\u00EDtulo, un n\u00BA de p\u00E1ginas y un atributo\r\n disponible que indica si est\u00E1 disponible o no (a true si lo est\u00E1,\r\n a false si no lo est\u00E1)\r\n \r\n
+comment1.params=titulo paginas
+comment1.target=Libro(java.lang.String, int)
+comment1.text=\r\n Constructor - crea un libro a partir del t\u00EDtulo y\r\n las p\u00E1ginas indicadas como par\u00E1metros\r\n Inicialmente todo libro est\u00E1 disponible\r\n
+comment2.target=java.lang.String getTitulo()
+comment2.text=\r\n accesor para el t\u00EDtulo\r\n
+comment3.target=int getPaginas()
+comment3.text=\r\n accesor para las p\u00E1ginas\r\n
+comment4.target=boolean estaDisponible()
+comment4.text=\r\n accesor de nombre estaDisponible() \r\n para el atributo disponible\r\n
+comment5.params=otro
+comment5.target=boolean masPaginasQue(Libro)
+comment5.text=\r\n devuelve true si el libro actual tiene m\u00E1s p\u00E1ginas que el recibido como par\u00E1metro\r\n
+comment6.target=void prestar()
+comment6.text=\r\n se presta un libro, \u00E9ste deja de estar disponible\r\n
+comment7.target=void devolver()
+comment7.text=\r\n se devuelve un libro, vuelve a estar disponible\r\n
+comment8.target=java.lang.String toString()
+comment8.text=\r\n Representaci\u00F3n textual del libro\r\n       T\u00EDtulo\: XXXXXXXXXX\r\n      P\u00E1ginas\: XXX\r\n   Disponible\: XXX\r\n   \r\n   Dos columnas, 1\u00AA columna ocupa 15 posiciones alineada a la derecha\r\n                 2\u00AA columna alineada a la izquierda\r\n
+numComments=9

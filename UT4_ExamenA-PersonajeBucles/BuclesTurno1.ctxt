@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=BuclesTurno1
+comment0.text=\r\n\ \ \r\n\ @author\ \ \r\n\ \ \r\n
+comment1.params=
+comment1.target=BuclesTurno1()
+comment1.text=\r\n\ Constructor\ \ \r\n
+comment2.params=numero
+comment2.target=int\ sumarDivisoresPropios(int)
+comment2.text=\r\n\ \ Calcula\ y\ devuelve\ la\ suma\ de\ los\ divisores\ propios\ de\ un\ n\u00BA\r\n\ \ Los\ divisores\ propios\ de\ un\ n\u00BA\ son\ todos\ los\ divisores\ menores\r\n\ \ que\ \u00E9l\r\n\ \ Ej\ -\ Los\ divisores\ propios\ del\ 6\ son\ 1,\ \ 2\ y.\ 3\ \r\n\ \ \ \ \ \ \ Los\ divisores\ propios\ del\ 28\ son\ 1,\ 2,\ 4,\ 7\ y\ 14.\r\n
+comment3.params=n\ c
+comment3.target=java.lang.String\ construirCadena(int,\ char)
+comment3.text=\r\n\ \ Devuelve\ una\ cadena\ formada\ por\ n\ caracteres\ c\r\n\ \ Asumimos\ n\ positivo\r\n\ \ Hacer\ con\ for\r\n
+comment4.params=
+comment4.target=void\ generarNumeros()
+comment4.text=\r\n\ \ Generar\ n\u00BAs\ aleatorios\ entre\ 0\ y\ 100\ (incluidos).\r\n\ \ Parar\ cuando\ salga\ un\ 0\ o\ cuando\ se\ hayan\ generado\ un\ m\u00E1ximo\ de\ 15\ valores\r\n\ \ Por\ cada\ n\u00BA\ se\ muestra\:\r\n\ \ \ \ \ \ -\ la\ suma\ de\ sus\ divisores\ propios\r\n\ \ \ \ \ \ -\ el\ tipo\ de\ n\u00BA\ que\ es\:\ "Abundante"\ si\ la\ suma\ de\ los\ divisores\ propios\ \ es\ mayor\ que\ el\ n\u00BA\ \ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ (12,\ 18,\ 20\ son\ abundantes)\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ "Deficiente"\ si\ la\ suma\ de\ los\ divisores\ propios\ es\ menor\ que\ el\ n\u00BA\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ (7,\ 8,\ 10\ son\ deficientes)\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ "Perfecto"\ si\ el\ n\u00BA\ es\ igual\ a\ la\ suma\ de\ los\ divisores\ propios\ \ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (6\ y\ 28\ son\ perfectos)\r\n\ \ \ \ \ \ \ -\ si\ el\ n\u00BA\ es\ abundante\ al\ lado\ se\ muestra\ una\ cadena\ con\ tantos\ caracteres\ +\ como\ sea\ la\ diferencia\r\n\ \ \ \ \ \ \ \ \ \ entre\ el\ n\u00BA\ y\ la\ suma\ de\ sus\ divisores\ propios\ (en\ valor\ absoluto)\r\n\ \ \ \ \ \ \ -\ si\ el\ n\u00BA\ es\ deficiente\ \ al\ lado\ se\ muestra\ una\ cadena\ con\ tantos\ caracteres\ -\ como\ sea\ la\ diferencia\r\n\ \ \ \ \ \ \ \ \ \ entre\ el\ n\u00BA\ y\ la\ suma\ de\ sus\ divisores\ propios\ (en\ valor\ absoluto)\r\n\ \ \ \ \ \ \ \ \ \ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \r\n\ \ \r\n\ \ \r\n
+numComments=5

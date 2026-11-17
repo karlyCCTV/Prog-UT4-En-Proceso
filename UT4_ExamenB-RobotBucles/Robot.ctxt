@@ -1,0 +1,32 @@
+#BlueJ class context
+#Tue Nov 03 19:12:56 CET 2026
+comment0.target=Robot
+comment0.text=\r\n @author - \r\n \r\n Un objeto de esta clase representa a un robot situado en una\r\n determinada posici\u00F3n en un espacio bidimensional\r\n \r\n El robot se mueve solo en vertical  \r\n \r\n Cada vez que se mueve avanza una distancia seg\u00FAn la\r\n direcci\u00F3n que tenga \r\n   \r\n  \r\n
+comment1.params=nombre
+comment1.target=Robot(java.lang.String)
+comment1.text=\r\n Constructor - crea el robot con el nombre  indicado \r\n como par\u00E1metro.\r\n La posici\u00F3n inicial es (0, 0) y la \r\n direcci\u00F3n inicial siempre es NORTE\r\n\r\n
+comment10.target=Robot obtenerReplica()
+comment10.text=<\r\n   Devuelve un robot nuevo, r\u00E9plica del actual\r\n   (mismo nombre, posici\u00F3n y direcci\u00F3n)\r\n
+comment11.target=java.lang.String toString()
+comment11.text=\r\n Representaci\u00F3n textual del robot\r\n Se indica la direcci\u00F3n en la que se mueve y posici\u00F3n actual\r\n (ver resultados ejecuci\u00F3n)\r\n
+comment2.params=nombre x y direccion
+comment2.target=Robot(java.lang.String, int, int, Direccion)
+comment2.text=\r\n Constructor - crea el robot con el nombre  indicado \r\n como par\u00E1metro. La posici\u00F3n inicial es (x, y) y la \r\n direcci\u00F3n inicial la que indica el par\u00E1metro\r\n\r\n
+comment3.target=java.lang.String getNombre()
+comment3.text=\r\n Accesor para el nombre\r\n
+comment4.params=nombre
+comment4.target=void setNombre(java.lang.String)
+comment4.text=\r\n Mutador para el nombre\r\n
+comment5.target=Punto getPosicion()
+comment5.text=\r\n Accesor para la posici\u00F3n del robot\r\n
+comment6.params=posicion
+comment6.target=void setPosicion(Punto)
+comment6.text=\r\n Mutador para la posici\u00F3n del robot\r\n
+comment7.target=Direccion getDireccion()
+comment7.text=\r\n Accesor para la direcci\u00F3n\r\n
+comment8.target=void cambiarDireccion()
+comment8.text=\r\n Mutador para la direcci\u00F3n\r\n Cambia la direcci\u00F3n de movimiento del robot\r\n  \r\n
+comment9.params=distancia
+comment9.target=void mover(int)
+comment9.text=\r\n  El robot se mueve avanzando la distancia indicada\r\n  \r\n  Habr\u00E1   que   actualizar   el   estado   del   robot\r\n  adecuadamente (su posici\u00F3n)\r\n  \r\n  Muestra en pantalla un mensaje indicando la direcci\u00F3n y \r\n  distancia que se va a avanzar -  \r\n
+numComments=12

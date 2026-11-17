@@ -1,0 +1,20 @@
+#BlueJ class context
+#Tue Nov 03 18:56:01 CET 2026
+comment0.target=Punto
+comment0.text=\r\n Representa a un punto \r\n en el espacio bidimensional\r\n \r\n
+comment1.params=x y
+comment1.target=Punto(int, int)
+comment1.text=\r\n Constructor de la clase Punto\r\n
+comment2.target=int getX()
+comment2.text=\r\n Accesor para el atributo x\r\n  \r\n
+comment3.target=int getY()
+comment3.text=\r\n Accesor para el atributo y\r\n  \r\n
+comment4.params=x
+comment4.target=void setX(int)
+comment4.text=\r\n \r\n  Mutador para la coordenada x\r\n  \r\n
+comment5.params=y
+comment5.target=void setY(int)
+comment5.text=\r\n Mutador para la coordenada y\r\n  \r\n
+comment6.target=java.lang.String toString()
+comment6.text=\r\n Devuelve una cadena con la representaci\u00F3n del \r\n          punto\r\n
+numComments=7

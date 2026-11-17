@@ -1,0 +1,16 @@
+#BlueJ class context
+#Tue Nov 03 16:50:08 CET 2026
+comment0.target=Podometro
+comment0.text=\r\n Write a description of class Podometro here.\r\n \r\n @author (your name) \r\n @version (a version number or a date)\r\n
+comment1.params=miMarca
+comment1.target=Podometro(java.lang.String)
+comment2.target=java.lang.String getMarca()
+comment3.params=queAltura queSexo
+comment3.target=void configurar(double, char)
+comment4.params=pasos dia horaInicio horaFin
+comment4.target=void registrarCaminata(int, int, int, int)
+comment5.target=void printConfiguraci\u00F3n()
+comment6.target=void printEstadisticas()
+comment7.target=java.lang.String diaMayorNumeroPasos()
+comment8.target=void reset()
+numComments=9

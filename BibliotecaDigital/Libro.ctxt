@@ -1,0 +1,22 @@
+#BlueJ class context
+#Tue Oct 27 15:42:03 CET 2026
+comment0.target=Libro
+comment1.params=miTitulo miAutor miNumeroPaginas
+comment1.target=Libro(java.lang.String, java.lang.String, int)
+comment10.target=double getPrecioEbook()
+comment11.target=double calcularProgresoLectura()
+comment12.target=void mostrarEstadoLectura()
+comment13.target=double calcularPrecioTotal()
+comment14.params=paginas
+comment14.target=void anyadirPaginasLeidas(int)
+comment2.params=value
+comment2.target=void disponible(boolean)
+comment3.params=value
+comment3.target=void paginas(int)
+comment4.target=java.lang.String getTitulo()
+comment5.target=java.lang.String getAutor()
+comment6.target=int getNumeroPag()
+comment7.target=int getPaginasLeidas()
+comment8.target=boolean getDisponibleEnEbook()
+comment9.target=double getPrecioFisico()
+numComments=15

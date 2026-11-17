@@ -1,0 +1,8 @@
+#BlueJ class context
+#Mon Nov 16 19:19:01 CET 2026
+comment0.target=AppPersonaje
+comment0.text=\r\n  Punto de entrada a la aplicaci\u00F3n\r\n \r\n @author - \r\n  \r\n
+comment1.params=args
+comment1.target=void main(java.lang.String[])
+comment1.text=\r\n      \u2022 crea un Personaje de nombre \u201CSuper Mario\u00B7, posici\u00F3n inicial (15,40) y movimiento hacia arriba.\r\n      \u2022 muestra el estado del personaje\r\n      \u2022 mueve el personaje 2 veces \r\n      \u2022 muestra el estado del personaje\r\n      \u2022 cambia la direcci\u00F3n de movimiento del personaje\r\n      \u2022 mueve el personaje otras 2 veces  \r\n      \u2022 muestra el estado del personaje\r\n      \u2022  \r\n      \u2022 crea una copia del personaje actual y mu\u00E9strala\r\n
+numComments=2

@@ -1,0 +1,29 @@
+#BlueJ class context
+#Mon Nov 16 19:17:08 CET 2026
+comment0.target=Personaje
+comment0.text=\r\n @author - \r\n \r\n Un objeto de esta clase representa a un personaje situado en una\r\n determinada coordenada en un escenario bidimensional\r\n \r\n El personaje se mueve solo hacia arriba o hacia la derecha\r\n \r\n Cada vez que se mueve avanza una distancia seg\u00FAn el\r\n sentido del movimiento que tenga \r\n   \r\n  \r\n
+comment1.params=nombre
+comment1.target=Personaje(java.lang.String)
+comment1.text=\r\n Constructor - crea el personaje con el nombre  indicado \r\n como par\u00E1metro.\r\n La posici\u00F3n inicial es (0, 0) y la \r\n direcci\u00F3n inicial de movimiento siempre es DERECHA\r\n\r\n
+comment10.target=java.lang.String toString()
+comment10.text=\r\n Representaci\u00F3n textual del personaje\r\n Se indica la direcci\u00F3n de movimiento en la que se mueve y posici\u00F3n actual\r\n (ver resultados ejecuci\u00F3n)\r\n
+comment2.params=nombre x y movimiento
+comment2.target=Personaje(java.lang.String, int, int, Movimiento)
+comment2.text=\r\n Constructor - crea el personaje con el nombre  indicado \r\n como par\u00E1metro. La posici\u00F3n inicial es la coordenada (x, y) y la \r\n direcci\u00F3n inicial de movimiento la que indica el par\u00E1metro\r\n\r\n
+comment3.target=java.lang.String getNombre()
+comment3.text=\r\n Accesor para el nombre\r\n
+comment4.params=nombre
+comment4.target=void setNombre(java.lang.String)
+comment4.text=\r\n Mutador para el nombre\r\n
+comment5.target=Coordenada getPosicion()
+comment5.text=\r\n Accesor para la posici\u00F3n del personaje\r\n
+comment6.params=posicion
+comment6.target=void setPosicion(Coordenada)
+comment6.text=\r\n Mutador para la posici\u00F3n del personaje\r\n
+comment7.target=Movimiento getMovimiento()
+comment7.text=\r\n Accesor para la direcci\u00F3n de movimiento\r\n del personaje\r\n
+comment8.target=void cambiarMovimiento()
+comment8.text=\r\n Mutador para cambiar la direcci\u00F3n de movimiento del\r\n personaje\r\n  \r\n
+comment9.target=void mover()
+comment9.text=\r\n  El personaje se mueve de la siguiente manera\:\r\n  - si va hacia la derecha avanza tantas posiciones como indique su coordenada x\r\n  - si va hacia arriba avanza solo de 2 en 2 posiciones\r\n  \r\n  \r\n  Habr\u00E1   que   actualizar   el   estado   del   personaje\r\n  adecuadamente (su posici\u00F3n)\r\n  \r\n  Muestra en pantalla un mensaje indicando la direcci\u00F3n de movimiento y \r\n  distancia que se va a avanzar -  \r\n
+numComments=11

@@ -1,0 +1,8 @@
+#BlueJ class context
+#Tue Oct 27 15:44:38 CET 2026
+comment0.target=Main
+comment1.params=args
+comment1.target=void main(java.lang.String[])
+comment2.params=miLibro
+comment2.target=void mostrarDatos(Libro)
+numComments=3

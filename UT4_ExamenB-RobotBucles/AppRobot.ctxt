@@ -1,0 +1,8 @@
+#BlueJ class context
+#Wed Nov 04 16:00:06 CET 2026
+comment0.target=AppRobot
+comment0.text=\r\n  \r\n Punto de entrada a la aplicaci\u00F3n\r\n \r\n @author -  \r\n
+comment1.params=args
+comment1.target=void main(java.lang.String[])
+comment1.text=\r\n      \u2022 crea un robot de nombre \u201CR2D2\u00B7, posici\u00F3n inicial (50,50) y direcci\u00F3n sur.\r\n      \u2022 muestra el estado del robot\r\n      \u2022 mueve el robot una distancia de 12\r\n      \u2022 mueve el robot una distancia de 10\r\n      \u2022 cambia la direcci\u00F3n del robot\r\n      \u2022 mueve el robot una distancia de 7, 2 y 3\r\n      \u2022 muestra el estado final del robot\r\n      \u2022 crea una r\u00E9plica del robot y mu\u00E9strala\r\n
+numComments=2

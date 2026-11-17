@@ -1,0 +1,27 @@
+#BlueJ class context
+#Thu Oct 29 20:02:05 CET 2026
+comment0.target=Cliente
+comment1.params=miNombre miDni
+comment1.target=Cliente(java.lang.String, java.lang.String)
+comment10.target=int getTarifaDiaria()
+comment11.params=dias
+comment11.target=void alquilarCoche(int)
+comment12.params=diasRetraso
+comment12.target=int calcularMulta(int)
+comment13.params=diasRetraso
+comment13.target=void devolverCoche(int)
+comment14.target=void mostrarPagosPendientes()
+comment15.target=void consultarEstadoAlquiler()
+comment16.target=void pagarFactura()
+comment2.params=value
+comment2.target=void setCocheAlquilado(boolean)
+comment3.params=value
+comment3.target=void setDiasAlquiler(int)
+comment4.params=value
+comment4.target=void setPendientePago(int)
+comment5.target=java.lang.String getNombre()
+comment6.target=java.lang.String getDni()
+comment7.target=boolean getCocheAlquilado()
+comment8.target=int getDiasAlquiler()
+comment9.target=int getPendientePago()
+numComments=17

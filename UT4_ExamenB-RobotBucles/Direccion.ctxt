@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Direccion
+comment0.text=\r\n\ \ Un\ objeto\ de\ esta\ clase\ representa\ \r\n\ \ la\ direcci\u00F3n\ de\ movimiento\ de\ un\ robot\r\n\ \ \ \r\n
+comment1.params=
+comment1.target=Direccion()
+comment1.text=\r\n\ Constructor\ \ \r\n
+comment2.params=direccion
+comment2.target=Direccion(int)
+comment2.text=\r\n\ Constructor\ \ \r\n
+comment3.params=
+comment3.target=int\ getDireccion()
+comment3.text=\r\n\ \ accesor\ para\ la\ direccion\r\n
+comment4.params=
+comment4.target=boolean\ esNorte()
+comment4.text=\r\n\ \ devuelve\ true\ si\ la\ direcci\u00F3n\ es\ NORTE,\ false\ en\ otro\ caso\r\n
+comment5.params=
+comment5.target=void\ cambiarDireccion()
+comment5.text=\r\n\ Mutador\ para\ la\ direcci\u00F3n\r\n\ Cambia\ la\ direcci\u00F3n\ \r\n\ \ \r\n\ \ \r\n
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment6.text=\r\n\ Representaci\u00F3n\ textual\ de\ la\ direcci\u00F3n\r\n\ \ \r\n
+numComments=7

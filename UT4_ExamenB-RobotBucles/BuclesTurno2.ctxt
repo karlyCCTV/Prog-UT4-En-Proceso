@@ -1,0 +1,13 @@
+#BlueJ class context
+#Wed Nov 04 16:00:04 CET 2026
+comment0.target=BuclesTurno2
+comment0.text=\r\n  \r\n @author - \r\n  \r\n
+comment1.target=BuclesTurno2()
+comment1.text=\r\n Constructor  \r\n
+comment2.params=n
+comment2.target=java.lang.String generarAsteriscos(int)
+comment2.text=\r\n  Devuelve una cadena formada por n asteriscos\r\n  Asumimos n positivo\r\n  Hacer con for\r\n
+comment3.params=min max
+comment3.target=void generarAleatorios(int, int)
+comment3.text=\r\n        genera n\u00BAs aleatorios en el intervalo [min, max]  (incluidos).\r\n        El proceso termina cuando sale el valor min o cuando se han generado un m\u00E1ximo de 20 valores.\r\n        Al lado de cada n\u00BA se escribe una cadena con tantos asteriscos como indique el n\u00FAmero de m\u00FAltiplos de 3 que existan entre el min y \u00E9l incluidos.\r\n        En la tercera columna se deber\u00E1 mostrar la suma de estos m\u00FAltiplos de 3.\r\n        Entre columnas se deber\u00E1 tabular.\r\n        Usa bucles while.\r\n
+numComments=4
