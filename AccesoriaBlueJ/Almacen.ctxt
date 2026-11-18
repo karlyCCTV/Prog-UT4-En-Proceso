@@ -1,17 +1,19 @@
 #BlueJ class context
-#Tue Nov 17 19:43:21 CET 2026
+#Wed Nov 18 15:39:26 CET 2026
 comment0.target=Almacen
-comment1.params=getNumeroBolsos
-comment1.target=Almacen(int)
+comment1.target=Almacen()
 comment1.text=\ TODO ++++++++++++++++++++++++++\r\n    DESARROLLE LOS CONSTRUCTORES QUE SE PIDEN\r\n
-comment2.params=numeroBolsos
-comment2.target=void setNumeroBolsos(int)
-comment3.target=int getNumeroCinturones()
-comment4.params=numeroCinturones
-comment4.target=void setNumeroCinturones(int)
-comment5.target=int getNumeroSombreros()
-comment6.params=numeroSombreros
-comment6.target=void setNumeroSombreros(int)
-comment7.target=void mostrarInfoAlmacen()
-comment7.text=\ TODO ++++++++++++++++++++++++++\r\n    DESARROLLE LOS METODOS QUE SE PIDEN\r\n
-numComments=8
+comment2.params=numBolsos numCinturones numSombreros
+comment2.target=Almacen(int, int, int)
+comment3.target=int getNumeroBolsos()
+comment4.params=numeroBolsos
+comment4.target=void setNumeroBolsos(int)
+comment5.target=int getNumeroCinturones()
+comment6.params=numeroCinturones
+comment6.target=void setNumeroCinturones(int)
+comment7.target=int getNumeroSombreros()
+comment8.params=numeroSombreros
+comment8.target=void setNumeroSombreros(int)
+comment9.target=void mostrarInfoAlmacen()
+comment9.text=\ TODO ++++++++++++++++++++++++++\r\n    DESARROLLE LOS METODOS QUE SE PIDEN\r\n
+numComments=10

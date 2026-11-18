@@ -7,8 +7,16 @@ public class Almacen {
     /* TODO ++++++++++++++++++++++++++
     DESARROLLE LOS CONSTRUCTORES QUE SE PIDEN
      */
-    public Almacen(
-
+    public Almacen(){
+        this.numeroBolsos = 0;
+        this.numeroCinturones = 0;
+        this.numeroSombreros = 0;
+    }
+    public Almacen(int numBolsos, int numCinturones, int numSombreros){
+        this.numeroBolsos = numBolsos;
+        this.numeroCinturones = numCinturones;
+        this.numeroSombreros = numSombreros;
+    }
 
     // ++++++++++++++++++++++++++++++++
 
