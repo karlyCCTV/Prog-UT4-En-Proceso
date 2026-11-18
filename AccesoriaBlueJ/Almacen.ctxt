@@ -1,8 +1,13 @@
 #BlueJ class context
-#Wed Nov 18 15:39:26 CET 2026
+#Wed Nov 18 19:25:38 CET 2026
 comment0.target=Almacen
 comment1.target=Almacen()
 comment1.text=\ TODO ++++++++++++++++++++++++++\r\n    DESARROLLE LOS CONSTRUCTORES QUE SE PIDEN\r\n
+comment10.params=numero
+comment10.target=boolean almacenarSombreros(int)
+comment11.params=numero
+comment11.target=boolean almacenarCinturones(int)
+comment12.target=void mostrarInfoAlmacen()
 comment2.params=numBolsos numCinturones numSombreros
 comment2.target=Almacen(int, int, int)
 comment3.target=int getNumeroBolsos()
@@ -14,6 +19,7 @@ comment6.target=void setNumeroCinturones(int)
 comment7.target=int getNumeroSombreros()
 comment8.params=numeroSombreros
 comment8.target=void setNumeroSombreros(int)
-comment9.target=void mostrarInfoAlmacen()
+comment9.params=numero
+comment9.target=boolean almacenarBolsos(int)
 comment9.text=\ TODO ++++++++++++++++++++++++++\r\n    DESARROLLE LOS METODOS QUE SE PIDEN\r\n
-numComments=10
+numComments=13

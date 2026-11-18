@@ -47,6 +47,30 @@ public class Almacen {
         /* TODO ++++++++++++++++++++++++++
     DESARROLLE LOS METODOS QUE SE PIDEN
      */
+    public boolean almacenarBolsos(int numero) {
+        if (this.numeroBolsos + numero > Constantes.CAPACIDAD_BOLSOS) {
+            System.out.println("Se excede la capacidad máxima");
+            return false;
+        }
+        this.numeroBolsos += numero;
+        return true;
+    }
+    public boolean almacenarSombreros(int numero) {
+        if (this.numeroSombreros + numero > Constantes.CAPACIDAD_SOMBREROS) {
+            System.out.println("Se excede la capacidad máxima");
+            return false;
+        }
+        this.numeroSombreros += numero;
+        return true;
+    }
+    public boolean almacenarCinturones(int numero) {
+        if (this.numeroCinturones + numero > Constantes.CAPACIDAD_CINTURONES) {
+            System.out.println("Se excede la capacidad máxima");
+            return false;
+        }
+        this.numeroCinturones += numero;
+        return true;
+    }
 
 
 
