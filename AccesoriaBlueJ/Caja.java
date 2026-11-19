@@ -62,7 +62,7 @@ public class Caja {
     }
     
     public double obtenerIVAAcumulado() {
-        return (facturacion * 0.21) + facturacion;
+        return (facturacion * 0.21);
     }
 
 
