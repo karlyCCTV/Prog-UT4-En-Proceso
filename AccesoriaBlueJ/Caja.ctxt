@@ -1,0 +1,22 @@
+#BlueJ class context
+#Thu Nov 19 19:57:47 CET 2026
+comment0.target=Caja
+comment1.target=Caja()
+comment1.text=\ TODO ++++++++++++++++++++++++++\r\n    DESARROLLE EL CONSTRUCTOR QUE SE PIDE\r\n
+comment10.params=ventas
+comment10.target=void aumentarVentasCinturones(int)
+comment11.params=dinero
+comment11.target=void aumentarFacturacion(double)
+comment12.target=double obtenerIVAAcumulado()
+comment2.target=int getNumeroVentas()
+comment3.target=int getNumeroSombrerosVendidos()
+comment4.target=int getNumeroBolsosVendidos()
+comment5.target=int getNumeroCinturonesVendidos()
+comment6.target=double getFacturacion()
+comment7.target=void actualizarNumeroVentas()
+comment7.text=\ TODO **************************\r\n    DESARROLLE LOS METODOS QUE SE PIDEN\r\n
+comment8.params=ventas
+comment8.target=void aumentarVentasBolsos(int)
+comment9.params=ventas
+comment9.target=void aumentarVentasSombreros(int)
+numComments=13

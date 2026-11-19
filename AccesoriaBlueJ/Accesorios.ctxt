@@ -1,0 +1,9 @@
+#BlueJ class context
+#Thu Nov 19 19:58:05 CET 2026
+comment0.target=Accesorios
+comment1.params=numBolsos numSombreros numCinturones
+comment1.target=Accesorios(int, int, int)
+comment2.target=int getNumBolsos()
+comment3.target=int getNumCinturones()
+comment4.target=int getNumSombreros()
+numComments=5

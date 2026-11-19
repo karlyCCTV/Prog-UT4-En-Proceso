@@ -6,7 +6,14 @@ public class Tienda {
     /* TODO ******************************
     DESARROLLE LOS CONSTRUCTORES QUE SE PIDEN
      */
-
+    public Tienda() {
+        this.almacen = new Almacen();
+        this.caja = new Caja();
+    }
+    public Tienda(int numeroBolsos, int numeroSombreros, int numeroCinturones) {
+        this.almacen = new Almacen (numeroBolsos,numeroSombreros,numeroCinturones);
+        this.caja = new Caja();
+    }
     //*************************************
 
     public Almacen getAlmacen() {
@@ -20,6 +27,7 @@ public class Tienda {
        /* TODO ****************************
     DESARROLLE LOS METODOS QUE SE PIDEN
      */
+    public void 
 
 
     //**************************************
