@@ -1,5 +1,5 @@
 #BlueJ class context
-#Thu Nov 19 20:00:52 CET 2026
+#Thu Nov 19 20:21:40 CET 2026
 comment0.target=Tienda
 comment1.target=Tienda()
 comment1.text=\ TODO ******************************\r\n    DESARROLLE LOS CONSTRUCTORES QUE SE PIDEN\r\n
@@ -7,4 +7,15 @@ comment2.params=numeroBolsos numeroSombreros numeroCinturones
 comment2.target=Tienda(int, int, int)
 comment3.target=Almacen getAlmacen()
 comment4.target=Caja getCaja()
-numComments=5
+comment5.params=venta
+comment5.target=void realizarVenta(Accesorios)
+comment5.text=\ TODO ****************************\r\n    DESARROLLE LOS METODOS QUE SE PIDEN\r\n
+comment6.params=carga
+comment6.target=void cargarAccesorios(Accesorios)
+comment7.params=numBolsos
+comment7.target=void venderBolsos(int)
+comment8.params=numCinturones
+comment8.target=void venderCinturones(int)
+comment9.params=numSombreros
+comment9.target=void venderSombreros(int)
+numComments=10
