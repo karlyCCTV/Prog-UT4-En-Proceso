@@ -27,7 +27,31 @@ public class Ejecucion {
               /* TODO **************************
             DESARROLLE A CONTINUACION LA LOGICA QUE SE PIDE
             */
-
+            switch(opcion) {
+                case 1:
+                    verAlmacen(accesoria);
+                    break;
+                case 2:
+                    venderAccesorios(accesoria);
+                    break;
+                case 3:
+                    recibirCargamento(accesoria);
+                    break;
+                case 4:
+                    verFacturacion(accesoria);
+                    break;
+                case 5:
+                    verIVA(accesoria);
+                    break;
+                case 6:
+                    verDatosVentas(accesoria);
+                    break;
+                case 7:
+                    System.out.println("Saliendo...");
+                    break;
+                default:
+                    break;
+            }
             //**********************************
 
         }
@@ -37,6 +61,52 @@ public class Ejecucion {
         /* TODO ****************************
     DESARROLLE LOS METODOS QUE SE PIDEN
      */
+    //1
+    private static void verAlmacen(Tienda tienda) {
+        tienda.getAlmacen().mostrarInfoAlmacen();
+    }
+    //2
+    private static void venderAccesorios(Tienda tienda) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Introduce el número de bolsos a vender");
+        int bolsos = scanner.nextInt();
+        System.out.println("Introduce el número de sombreros a vender");
+        int sombreros = scanner.nextInt();
+        System.out.println("Introduce el número de cinturones a vender");
+        int cinturones = scanner.nextInt();
+        
+        tienda.realizarVenta(new Accesorios(bolsos,sombreros,cinturones));
+    }
+    //3
+    private static void recibirCargamento(Tienda tienda) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Introduce el número de bolsos a cargar en el amlmacén");
+        int bolsos = scanner.nextInt();
+        System.out.println("Introduce el número de sombreros a cargar en el amlmacén");
+        int sombreros = scanner.nextInt();
+        System.out.println("Introduce el número de cinturones a cargar en el amlmacén");
+        int cinturones = scanner.nextInt();
+        
+        tienda.cargarAccesorios(new Accesorios(bolsos,sombreros,cinturones));
+    }
+    //4
+    private static void verFacturacion(Tienda tienda) {
+        System.out.println("Facturación de la tienda: " + tienda.getCaja().getFacturacion() + "€");
+    }
+    //5
+    private static void verIVA(Tienda tienda) {
+        System.out.println("IVA generado en la tienda: " + tienda.getCaja().obtenerIVAAcumulado() + "€");
+    }
+    //6
+    private static void verDatosVentas(Tienda tienda) {
+        String str = "++++ DATOS DE VENTAS ++++\n";
+        str += "Bolsos vendidos: " + tienda.getCaja().getNumeroBolsosVendidos() + "\n";
+        str += "Cinturones vendidos: " + tienda.getCaja().getNumeroCinturonesVendidos() + "\n";
+        str += "Sombreros vendidos: " + tienda.getCaja().getNumeroSombrerosVendidos() + "\n";
+        str += "++++++++++++++++++++++++";
+        System.out.println(str);
+    }    
+    
 
 
     //**************************************
