@@ -3,7 +3,7 @@ public class Accesorios {
     private int numCinturones;
     private int numSombreros;
 
-    public Accesorios(int numBolsos, int numSombreros, int numCinturones){
+    public Accesorios(int numBolsos, int numCinturones, int numSombrero){
         this.numBolsos = numBolsos;
         this.numSombreros = numSombreros;
         this.numCinturones = numCinturones;

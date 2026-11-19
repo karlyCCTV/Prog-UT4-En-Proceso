@@ -41,7 +41,7 @@ public class Tienda {
         if (numBolsos <= 0) {
             return;
         }
-        if (!almacen.almacenarBolsos(numBolsos)) {
+        if (!almacen.eliminarBolsos(numBolsos)) {
             System.out.println("No se ha podido ejecutar la operación de venta de bolsos");
             return;
         }
@@ -52,7 +52,7 @@ public class Tienda {
         if (numCinturones <= 0) {
             return;
         }
-        if (!almacen.almacenarCinturones(numCinturones)) {
+        if (!almacen.eliminarCinturones(numCinturones)) {
             System.out.println("No se ha podido ejecutar la operación de venta de cinturones");
             return;
         }
@@ -63,7 +63,7 @@ public class Tienda {
         if (numSombreros <= 0) {
             return;
         }
-        if (!almacen.almacenarSombreros(numSombreros)) {
+        if (!almacen.eliminarSombreros(numSombreros)) {
             System.out.println("No se ha podido ejecutar la operación de venta de sombreros");
             return;
         }
