@@ -71,9 +71,40 @@ public class Almacen {
         this.numeroCinturones += numero;
         return true;
     }
-
-
-
+    
+    public boolean eliminarBolsos(int numero) {
+        if (this.numeroCinturones <= numero) {
+            System.out.println("No hay existencias");
+            return false;
+        }
+        this.numeroBolsos -= numero;
+        return true;
+    }
+    public boolean eliminarSombreros(int numero) {
+        if (this.numeroSombreros <= numero) {
+            System.out.println("No hay existencias");
+            return false;
+        }
+        this.numeroSombreros -= numero;
+        return true;
+    }
+    public boolean eliminarCinturones(int numero) {
+        if (this.numeroCinturones <= numero) {
+            System.out.println("No hay existencias");
+            return false;
+        }
+        this.numeroCinturones -= numero;
+        return true;
+    }
+    
+    public String toString() {
+        String str = "**** INFORMACIÓN DEL ALMACÉN ****\n";
+        str += "Número de bolsos: "+ this.numeroBolsos + "\n";
+        str += "Número de sombreros: " +  this.numeroSombreros + "\n";
+        str += "Número de cinturones: " + this.numeroCinturones + "\n";
+        str += "*********************************";
+        return str;
+    }
 
     // ++++++++++++++++++++++++++++++++
 
