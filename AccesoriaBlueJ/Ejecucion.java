@@ -101,8 +101,8 @@ public class Ejecucion {
     private static void verDatosVentas(Tienda tienda) {
         String str = "++++ DATOS DE VENTAS ++++\n";
         str += "Bolsos vendidos: " + tienda.getCaja().getNumeroBolsosVendidos() + "\n";
-        str += "Cinturones vendidos: " + tienda.getCaja().getNumeroCinturonesVendidos() + "\n";
         str += "Sombreros vendidos: " + tienda.getCaja().getNumeroSombrerosVendidos() + "\n";
+        str += "Cinturones vendidos: " + tienda.getCaja().getNumeroCinturonesVendidos() + "\n";
         str += "++++++++++++++++++++++++";
         System.out.println(str);
     }    

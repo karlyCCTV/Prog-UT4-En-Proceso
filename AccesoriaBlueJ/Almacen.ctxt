@@ -1,5 +1,5 @@
 #BlueJ class context
-#Thu Nov 19 20:58:49 CET 2026
+#Sat Nov 21 01:26:28 CET 2026
 comment0.target=Almacen
 comment1.target=Almacen()
 comment1.text=\ TODO ++++++++++++++++++++++++++\r\n    DESARROLLE LOS CONSTRUCTORES QUE SE PIDEN\r\n
@@ -15,7 +15,7 @@ comment14.params=numero
 comment14.target=boolean eliminarCinturones(int)
 comment15.target=java.lang.String toString()
 comment16.target=void mostrarInfoAlmacen()
-comment2.params=numBolsos numCinturones numSombreros
+comment2.params=numBolsos numSombreros numCinturones
 comment2.target=Almacen(int, int, int)
 comment3.target=int getNumeroBolsos()
 comment4.params=numeroBolsos

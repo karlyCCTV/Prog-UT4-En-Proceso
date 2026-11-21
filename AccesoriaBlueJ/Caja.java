@@ -43,9 +43,7 @@ public class Caja {
     DESARROLLE LOS METODOS QUE SE PIDEN
      */
     public void actualizarNumeroVentas() {
-        this.numeroVentas += (numeroBolsosVendidos +
-            numeroCinturonesVendidos +
-            numeroSombrerosVendidos);
+        this.numeroVentas += (this.numeroBolsosVendidos + this.numeroCinturonesVendidos + this.numeroSombrerosVendidos);
     }
     
     public void aumentarVentasBolsos (int ventas) {

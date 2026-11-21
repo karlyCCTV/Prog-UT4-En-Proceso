@@ -12,7 +12,7 @@ public class Almacen {
         this.numeroCinturones = 0;
         this.numeroSombreros = 0;
     }
-    public Almacen(int numBolsos, int numCinturones, int numSombreros){
+    public Almacen(int numBolsos, int numSombreros, int numCinturones){
         this.numeroBolsos = numBolsos;
         this.numeroCinturones = numCinturones;
         this.numeroSombreros = numSombreros;
@@ -73,7 +73,8 @@ public class Almacen {
     }
     
     public boolean eliminarBolsos(int numero) {
-        if (this.numeroCinturones <= numero) {
+        System.out.println(numeroBolsos + "//////" + numero);
+        if (this.numeroBolsos < numero) {
             System.out.println("No hay existencias");
             return false;
         }
@@ -81,7 +82,8 @@ public class Almacen {
         return true;
     }
     public boolean eliminarSombreros(int numero) {
-        if (this.numeroSombreros <= numero) {
+        
+        if (this.numeroSombreros < numero) {
             System.out.println("No hay existencias");
             return false;
         }
@@ -89,7 +91,7 @@ public class Almacen {
         return true;
     }
     public boolean eliminarCinturones(int numero) {
-        if (this.numeroCinturones <= numero) {
+        if (this.numeroCinturones < numero) {
             System.out.println("No hay existencias");
             return false;
         }
