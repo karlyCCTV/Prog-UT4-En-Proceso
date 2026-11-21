@@ -1,0 +1,32 @@
+#BlueJ class context
+#Sat Nov 21 01:26:28 CET 2026
+comment0.target=Almacen
+comment1.target=Almacen()
+comment1.text=\ TODO ++++++++++++++++++++++++++\r\n    DESARROLLE LOS CONSTRUCTORES QUE SE PIDEN\r\n
+comment10.params=numero
+comment10.target=boolean almacenarSombreros(int)
+comment11.params=numero
+comment11.target=boolean almacenarCinturones(int)
+comment12.params=numero
+comment12.target=boolean eliminarBolsos(int)
+comment13.params=numero
+comment13.target=boolean eliminarSombreros(int)
+comment14.params=numero
+comment14.target=boolean eliminarCinturones(int)
+comment15.target=java.lang.String toString()
+comment16.target=void mostrarInfoAlmacen()
+comment2.params=numBolsos numSombreros numCinturones
+comment2.target=Almacen(int, int, int)
+comment3.target=int getNumeroBolsos()
+comment4.params=numeroBolsos
+comment4.target=void setNumeroBolsos(int)
+comment5.target=int getNumeroCinturones()
+comment6.params=numeroCinturones
+comment6.target=void setNumeroCinturones(int)
+comment7.target=int getNumeroSombreros()
+comment8.params=numeroSombreros
+comment8.target=void setNumeroSombreros(int)
+comment9.params=numero
+comment9.target=boolean almacenarBolsos(int)
+comment9.text=\ TODO ++++++++++++++++++++++++++\r\n    DESARROLLE LOS METODOS QUE SE PIDEN\r\n
+numComments=17
