@@ -73,7 +73,7 @@ public class Almacen {
     }
     
     public boolean eliminarBolsos(int numero) {
-        System.out.println(numeroBolsos + "//////" + numero);
+
         if (this.numeroBolsos < numero) {
             System.out.println("No hay existencias");
             return false;
