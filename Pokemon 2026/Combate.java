@@ -120,19 +120,26 @@ public class Combate{
         //       Tierra              |  1.0   |  2.0   |  1.0
         //
         //       Pista: usa un switch sobre tipoAtacante y, dentro, if con tipoDefensor.
-        double num = 1;
         switch(tipoAtacante) {
             case "Agua":
-                
-                break;
+                if (tipoDefensor.equals("Agua")) {
+                    return 0.5;
+                }
+                return 2;
             case "Fuego":
-                break;
+                if (tipoDefensor.equals("Tierra")) {
+                    return 1;
+                }
+                return 0.5;
             case "Tierra":
-                break;
+                if (tipoDefensor.equals("Fuego")) {
+                    return 2.0;
+                }
+                return 1;
             default:
                 System.out.println("Tipo no valido");
         }
-        return num;
+        return 1;
     }
     
     /**
