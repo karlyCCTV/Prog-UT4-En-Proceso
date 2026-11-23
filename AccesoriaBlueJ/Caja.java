@@ -46,16 +46,16 @@ public class Caja {
         this.numeroVentas += (this.numeroBolsosVendidos + this.numeroCinturonesVendidos + this.numeroSombrerosVendidos);
     }
     
-    public void aumentarVentasBolsos (int ventas) {
+    private void aumentarVentasBolsos (int ventas) {
         numeroBolsosVendidos += ventas;
     }
-    public void aumentarVentasSombreros (int ventas) {
+    private void aumentarVentasSombreros (int ventas) {
         numeroSombrerosVendidos += ventas;
     }
-    public void aumentarVentasCinturones (int ventas) {
+    private void aumentarVentasCinturones (int ventas) {
         numeroCinturonesVendidos += ventas;
     }
-    public void aumentarFacturacion(double dinero) {
+    private void aumentarFacturacion(double dinero) {
         facturacion += dinero;
     }
     

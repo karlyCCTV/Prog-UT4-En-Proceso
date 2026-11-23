@@ -67,25 +67,25 @@ public class Ejecucion {
     }
     //2
     private static void venderAccesorios(Tienda tienda) {
-        Scanner scanner = new Scanner(System.in);
+        //Scanner scanner = new Scanner(System.in);
         System.out.println("Introduce el número de bolsos a vender");
-        int bolsos = scanner.nextInt();
+        int bolsos = teclado.nextInt();
         System.out.println("Introduce el número de sombreros a vender");
-        int sombreros = scanner.nextInt();
+        int sombreros = teclado.nextInt();
         System.out.println("Introduce el número de cinturones a vender");
-        int cinturones = scanner.nextInt();
+        int cinturones = teclado.nextInt();
         
         tienda.realizarVenta(new Accesorios(bolsos,sombreros,cinturones));
     }
     //3
     private static void recibirCargamento(Tienda tienda) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Introduce el número de bolsos a cargar en el amlmacén");
-        int bolsos = scanner.nextInt();
-        System.out.println("Introduce el número de sombreros a cargar en el amlmacén");
-        int sombreros = scanner.nextInt();
-        System.out.println("Introduce el número de cinturones a cargar en el amlmacén");
-        int cinturones = scanner.nextInt();
+        //Scanner scanner = new Scanner(System.in);
+        System.out.println("Introduce el número de bolsos a cargar en el almacén");
+        int bolsos = teclado.nextInt();
+        System.out.println("Introduce el número de sombreros a cargar en el almacén");
+        int sombreros = teclado.nextInt();
+        System.out.println("Introduce el número de cinturones a cargar en el almacén");
+        int cinturones = teclado.nextInt();
         
         tienda.cargarAccesorios(new Accesorios(bolsos,sombreros,cinturones));
     }
