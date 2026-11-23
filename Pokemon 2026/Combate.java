@@ -123,49 +123,11 @@ public class Combate{
         double num = 1;
         switch(tipoAtacante) {
             case "Agua":
-                switch(tipoDefensor){
-                    case "Agua":
-                        num=0.5;
-                        break;
-                    case "Fuego":
-                        num=2;
-                        break;
-                    case "Tierra":
-                        num=2;
-                        break;
-                    default:
-                        System.out.println("Tipo no valido");
-                }
+                
                 break;
             case "Fuego":
-                switch(tipoDefensor){
-                    case "Agua":
-                        num=0.5;
-                        break;
-                    case "Fuego":
-                        num=0.5;
-                        break;
-                    case "Tierra":
-                        num=1;
-                        break;
-                    default:
-                        System.out.println("Tipo no valido");
-                }
                 break;
             case "Tierra":
-                switch(tipoDefensor){
-                    case "Agua":
-                        num=1;
-                        break;
-                    case "Fuego":
-                        num=2;
-                        break;
-                    case "Tierra":
-                        num=2;
-                        break;
-                    default:
-                        System.out.println("Tipo no valido");
-                }
                 break;
             default:
                 System.out.println("Tipo no valido");
@@ -220,12 +182,24 @@ public class Combate{
             disponible1 = pokemon.getPoder1();
             cantidad++;
         }
+        
         if (puedeUsar(pokemon,pokemon.getPoder2())) {
-            disponible2 = pokemon.getPoder2();
+            if (disponible1 != null) {
+                disponible1 = pokemon.getPoder2();
+            }else {
+                disponible2 = pokemon.getPoder2();
+            }
             cantidad++;
         }
+        
         if (puedeUsar(pokemon,pokemon.getPoder3())) {
-            disponible3 = pokemon.getPoder3();
+            if (disponible1 != null) {
+                disponible1 = pokemon.getPoder3();
+            } else if (disponible2 != null) {
+                disponible2 = pokemon.getPoder3();
+            } else {
+                disponible3 = pokemon.getPoder3();
+            }
             cantidad++;
         }
         if (cantidad==0){

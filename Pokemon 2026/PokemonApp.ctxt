@@ -1,5 +1,5 @@
 #BlueJ class context
-#Tue Nov 17 16:55:13 CET 2026
+#Mon Nov 23 20:11:48 CET 2026
 comment0.target=PokemonApp
 comment0.text=\r\n Clase principal de la aplicaci\u00F3n. Crea dos pokemon, un combate entre\r\n ellos y lo comienza.\r\n\r\n @author (your name)\r\n @version (a version number or a date)\r\n
 comment1.params=args
