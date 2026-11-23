@@ -1,5 +1,5 @@
 #BlueJ class context
-#Tue Nov 17 16:55:12 CET 2026
+#Mon Nov 23 20:11:45 CET 2026
 comment0.target=Combate
 comment0.text=\r\n Clase Combate\: enfrenta a dos pokemon por rondas hasta que uno de ellos\r\n se queda sin vida.\r\n\r\n En cada ronda ataca primero el pokemon que tiene el turno y despu\u00E9s el otro.\r\n El da\u00F1o es la potencia del poder del atacante (con el modificador de tipo)\r\n menos la potencia del poder con el que se defiende el defensor.\r\n\r\n Consejo\: implementa los m\u00E9todos en el orden en que aparecen, de los m\u00E1s\r\n sencillos a los m\u00E1s complejos.\r\n\r\n @author (your name)\r\n @version (a version number or a date)\r\n
 comment1.params=pokemon1 pokemon2
