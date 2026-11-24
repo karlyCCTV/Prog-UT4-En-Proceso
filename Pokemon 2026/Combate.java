@@ -191,7 +191,7 @@ public class Combate{
         }
         
         if (puedeUsar(pokemon,pokemon.getPoder2())) {
-            if (disponible1 != null) {
+            if (disponible1 == null) {
                 disponible1 = pokemon.getPoder2();
             }else {
                 disponible2 = pokemon.getPoder2();
@@ -200,9 +200,9 @@ public class Combate{
         }
         
         if (puedeUsar(pokemon,pokemon.getPoder3())) {
-            if (disponible1 != null) {
+            if (disponible1 == null) {
                 disponible1 = pokemon.getPoder3();
-            } else if (disponible2 != null) {
+            } else if (disponible2 == null) {
                 disponible2 = pokemon.getPoder3();
             } else {
                 disponible3 = pokemon.getPoder3();
