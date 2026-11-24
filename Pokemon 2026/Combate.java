@@ -335,7 +335,15 @@ public class Combate{
            Se deberá tener en cuenta si alguno/s de los 
            poderes del pokemon es vacío (nulo)
         */
-       
+       if(pokemon.getPoder1() != null) {
+           System.out.println(pokemon.getPoder1().toString());
+       }
+       if(pokemon.getPoder2() != null) {
+           System.out.println(pokemon.getPoder2().toString());
+       }
+       if(pokemon.getPoder3() != null) {
+           System.out.println(pokemon.getPoder3().toString());
+       }
     }
 }
 
