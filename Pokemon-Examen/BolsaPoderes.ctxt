@@ -1,0 +1,16 @@
+#BlueJ class context
+#Thu Nov 26 21:17:30 CET 2026
+comment0.target=BolsaPoderes
+comment0.text=\r\n EXAMEN\:\r\n Clase llamada BolsaPoderes con los parametros poder1, poder2 y poder3 de la clase Poder\r\n junto a su constructor, sus getters y sus setters\r\n
+comment1.params=poder1 poder2 poder3
+comment1.target=BolsaPoderes(Poder, Poder, Poder)
+comment2.target=Poder getPoder1()
+comment3.target=Poder getPoder2()
+comment4.target=Poder getPoder3()
+comment5.params=poder
+comment5.target=void setPoder1(Poder)
+comment6.params=poder
+comment6.target=void setPoder2(Poder)
+comment7.params=poder
+comment7.target=void setPoder3(Poder)
+numComments=8
