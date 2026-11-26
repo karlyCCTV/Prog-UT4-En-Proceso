@@ -12,6 +12,8 @@ constructores, métodos, relaciones entre clases (un Pokemon tiene Poderes,
 un Combate tiene Pokemons), condicionales, bucles y el uso de las clases
 Random y Scanner del paquete java.util.
 
+IPJADSJFOASIJDFAOSDIFASDF
+
 El proyecto simula un combate por turnos entre dos pokemon. Tiene cuatro clases:
 
   - PokemonApp: clase principal con el método main. Crea dos pokemon y un
