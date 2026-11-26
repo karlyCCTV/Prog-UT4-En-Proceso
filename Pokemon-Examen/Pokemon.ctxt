@@ -1,0 +1,31 @@
+#BlueJ class context
+#Thu Nov 26 21:17:33 CET 2026
+comment0.target=Pokemon
+comment0.text=\r\n Write a description of class Pokemon here.\r\n \r\n @author (your name) \r\n @version (a version number or a date)\r\n
+comment1.params=nombre tipo vida energia
+comment1.target=Pokemon(java.lang.String, java.lang.String, int, int)
+comment10.target=Poder getPoder2()
+comment11.target=Poder getPoder3()
+comment12.params=danio
+comment12.target=void recibirDanio(int)
+comment12.text=\r\n Resta vida al pokemon. La vida nunca baja de 0.\r\n
+comment13.params=cantidad
+comment13.target=void consumirEnergia(int)
+comment13.text=\r\n Resta al pokemon la energ\u00EDa que consume el poder usado.\r\n
+comment14.params=cantidad
+comment14.target=void ganarEnergia(int)
+comment14.text=\r\n Suma energ\u00EDa al pokemon.\r\n
+comment15.target=boolean estaDebilitado()
+comment15.text=\r\n Devuelve true si el pokemon se ha quedado sin vida.\r\n
+comment16.target=java.lang.String toString()
+comment2.params=nombre tipo vida
+comment2.target=Pokemon(java.lang.String, java.lang.String, int)
+comment3.params=nombre tipo
+comment3.target=Pokemon(java.lang.String, java.lang.String)
+comment4.target=void obtenerPoderes()
+comment5.target=java.lang.String getNombre()
+comment6.target=java.lang.String getTipo()
+comment7.target=int getVida()
+comment8.target=int getEnergia()
+comment9.target=Poder getPoder1()
+numComments=17
